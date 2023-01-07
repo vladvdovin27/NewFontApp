@@ -1,5 +1,5 @@
 # Font App
-App for determine fonts on image
+App for determine fonts on image(Test version)
 
 ## Algorithms
 - First algorithm is a cosine distance of vectors. Every image from database stored as a vector stored as a vector obtained using an encoder from the library img2vec-pytorch. If necessary, they are restored from vectors using a decoder
