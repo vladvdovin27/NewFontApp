@@ -142,6 +142,27 @@
      <string>Помощь</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>480</y>
+      <width>171</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ffa577;color: #f9f9ff; border-color: #f9f9ff;border-width: 1px;border-style: solid;border-radius:5px;</string>
+    </property>
+    <property name="text">
+     <string>Настройки</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -149,7 +170,7 @@
      <x>0</x>
      <y>0</y>
      <width>715</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

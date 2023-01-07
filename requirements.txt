@@ -76,3 +76,8 @@ wrapt==1.13.3
 zipp==3.6.0
 zope.event==4.5.0
 zope.interface==5.4.0
+
+torch~=1.13.1+cu116
+scipy~=1.7.3
+torchvision~=0.14.1+cu116
+tensorflow-gpu~=2.10.1

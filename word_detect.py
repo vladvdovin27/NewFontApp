@@ -1,7 +1,6 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow, QFileDialog
 import start
-from FontDetector import FontDetector
 import letter_detect
 
 
@@ -12,7 +11,6 @@ class WordDetectedWindow(QMainWindow):
         self.setFixedSize(650, 651)
         self.window = None
         self.filename = ''
-        self.detector = FontDetector('word')
         self.setWindowTitle('Идентификация шрифтов')
         self.pushButton.clicked.connect(self.choose_image)
         self.pushButton_2.clicked.connect(self.run)

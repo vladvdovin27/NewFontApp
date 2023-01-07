@@ -4,6 +4,7 @@ from PyQt5 import uic
 import change
 import help
 import fontadd
+import SettingsWindow
 
 
 class Window(QMainWindow):
@@ -13,6 +14,7 @@ class Window(QMainWindow):
         self.pushButton.clicked.connect(self.run)
         self.pushButton_2.clicked.connect(self.add_font)
         self.pushButton_3.clicked.connect(self.help)
+        self.pushButton_4.clicked.connect(self.settings)
         self.setFixedSize(715, 603)
         self.window = None
         self.setWindowTitle('Идентификация шрифтов')
@@ -41,6 +43,15 @@ class Window(QMainWindow):
         :return:
         """
         self.window = fontadd.FontAddWindow()
+        self.window.show()
+        self.close()
+
+    def settings(self):
+        """
+        Загрузка окна настроек
+        :return:
+        """
+        self.window = SettingsWindow.SettingsWindow()
         self.window.show()
         self.close()
 
